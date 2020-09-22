@@ -1,0 +1,12 @@
+  {
+    "name": "Website Launcher",
+    "version": "1.0",
+    "description": "Quick Site Launcher",
+    "manifest_version": 2,
+    "icons": { "128": "icon_128.png" },
+    "browser_action": {
+        "default icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permission": ["storage"]
+  }
